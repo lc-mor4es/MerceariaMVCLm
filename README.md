@@ -29,21 +29,21 @@ O **Mercearia MVCLm** é um sistema web intuitivo e moderno criado para otimizar
 ### 🏠 Home / Painel Principal
 > Tela inicial com atalhos e navegação simplificada para os módulos do sistema.
 
-![Home Page](MerceariaMVCLm/images/Print_home.png)
+![Home Page](./MerceariaMVCLm/images/Print_home.png)
 
 ---
 
 ### 👥 Gestão de Clientes
 > Tabela para visualização e controle de clientes, incluindo o status (`Ativo` / `Inativo`) e dados cadastrais.
 
-![Lista de Clientes](MerceariaMVCLm/images/Print_clientes.png).
+![Lista de Clientes](./MerceariaMVCLm/images/Print_home.png)
 
 ---
 
 ### 📦 Gestão de Produtos
 > Controle completo de estoque com precificação formatada em moeda local e marcadores de quantidade.
 
-![Lista de Produtos](MerceariaMVCLm/MerceariaMVCLm/wwwroot/images/Print_produtos.png)
+![Lista de Produtos](./MerceariaMVCLm/images/Print_home.png)
 
 ---
 
