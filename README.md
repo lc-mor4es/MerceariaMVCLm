@@ -43,7 +43,7 @@ O **Mercearia MVCLm** é um sistema web intuitivo e moderno criado para otimizar
 ### 📦 Gestão de Produtos
 > Controle completo de estoque com precificação formatada em moeda local e marcadores de quantidade.
 
-![Lista de Produtos](MerceariaMVCLm/wwwroot/images/Print_produtos.png)
+![Lista de Produtos](MerceariaMVCLm/MerceariaMVCLm/wwwroot/images/Print_produtos.png)
 
 ---
 
