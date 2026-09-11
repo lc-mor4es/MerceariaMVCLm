@@ -24,7 +24,7 @@ O **Mercearia MVCLm** é um sistema web intuitivo e moderno criado para otimizar
 ### 🏠 Home / Painel Principal
 > Tela inicial com atalhos e navegação simplificada para os módulos do sistema.
 
-![Home Page](MerceariaMVCLm/MerceariaMVCLm/images/Print_home.png)
+![Home Page](MerceariaMVCLm/images/Print_home.png)
 
 ---
 
