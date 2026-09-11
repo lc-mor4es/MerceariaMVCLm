@@ -68,5 +68,5 @@ O **Mercearia MVCLm** é um sistema web intuitivo e moderno criado para otimizar
 
 1. **Clone o repositório:**
    ```bash
-   git clone [https://github.com/lc-mor4es/MerceariaMVCLm.git](https://github.com/lc-mor4es/MerceariaMVCLm.git)
+   git clone https://github.com/lc-mor4es/MerceariaMVCLm.git
    cd MerceariaMVCLm
