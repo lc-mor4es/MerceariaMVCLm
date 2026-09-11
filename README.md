@@ -36,7 +36,7 @@ O **Mercearia MVCLm** é um sistema web intuitivo e moderno criado para otimizar
 ### 👥 Gestão de Clientes
 > Tabela para visualização e controle de clientes, incluindo o status (`Ativo` / `Inativo`) e dados cadastrais.
 
-![Lista de Clientes](MerceariaMVCLm/images/Print_clientes.png)
+![Lista de Clientes](MerceariaMVCLm/images/Print_clientes.png).
 
 ---
 
