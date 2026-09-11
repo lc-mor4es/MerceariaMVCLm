@@ -1,0 +1,40 @@
+﻿@{
+    ViewData["Title"] = "Página Inicial";
+}
+
+<div class="text-center py-4">
+    <h1 class="display-4 fw-bold text-dark">Bem-vindo à Mercearia MVCLm</h1>
+    <p class="lead text-muted">Gerencie seus clientes e produtos de forma simples e eficiente.</p>
+</div>
+
+<div class="row mt-4 g-4">
+    <div class="col-md-6">
+        <div class="card h-100 shadow-sm border-0">
+            <div class="card-body text-center p-5">
+                <div class="fs-1 text-primary mb-3">
+                    <i class="bi bi-people-fill"></i>
+                </div>
+                <h3 class="card-title fw-bold">Gestão de Clientes</h3>
+                <p class="card-text text-muted">Cadastre, edite e visualize a lista de clientes do seu sistema.</p>
+                <a asp-controller="Cliente" asp-action="Index" class="btn btn-primary btn-lg mt-2 px-4">
+                    Acessar Clientes
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-6">
+        <div class="card h-100 shadow-sm border-0">
+            <div class="card-body text-center p-5">
+                <div class="fs-1 text-success mb-3">
+                    <i class="bi bi-box-seam-fill"></i>
+                </div>
+                <h3 class="card-title fw-bold">Gestão de Produtos</h3>
+                <p class="card-text text-muted">Controle o estoque e o catálogo de produtos comercializados.</p>
+                <a asp-controller="Produto" asp-action="Index" class="btn btn-success btn-lg mt-2 px-4">
+                    Acessar Produtos
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

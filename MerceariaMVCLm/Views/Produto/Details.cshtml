@@ -1,0 +1,45 @@
+﻿@model MerceariaMVCLm.Models.Produto
+
+@{
+    ViewData["Title"] = "Detalhes do Produto";
+}
+
+<div class="row justify-content-center">
+    <div class="col-md-8 col-lg-6">
+        <div class="card shadow-sm border-0">
+            <div class="card-header bg-info text-white py-3">
+                <h4 class="mb-0 fw-bold">
+                    <i class="bi bi-info-circle me-2"></i>Detalhes do Produto
+                </h4>
+            </div>
+            <div class="card-body p-4">
+                <dl class="row mb-0">
+                    <dt class="col-sm-4 text-muted">@Html.DisplayNameFor(model => model.Nome)</dt>
+                    <dd class="col-sm-8 fw-semibold">@Html.DisplayFor(model => model.Nome)</dd>
+
+                    <dt class="col-sm-4 text-muted">@Html.DisplayNameFor(model => model.Preco)</dt>
+                    <dd class="col-sm-8">
+                        <span class="badge bg-success-subtle text-success border border-success fs-6">
+                            @Model.Preco.ToString("C")
+                        </span>
+                    </dd>
+
+                    <dt class="col-sm-4 text-muted">@Html.DisplayNameFor(model => model.Estoque)</dt>
+                    <dd class="col-sm-8">
+                        <span class="badge bg-secondary">
+                            @Model.Estoque un
+                        </span>
+                    </dd>
+                </dl>
+            </div>
+            <div class="card-footer bg-light d-flex justify-content-between py-3">
+                <a asp-action="Index" class="btn btn-outline-secondary">
+                    <i class="bi bi-arrow-left me-1"></i>Voltar
+                </a>
+                <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn btn-success">
+                    <i class="bi bi-pencil me-1"></i>Editar
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

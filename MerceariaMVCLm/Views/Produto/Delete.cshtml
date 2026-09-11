@@ -1,0 +1,42 @@
+﻿@model MerceariaMVCLm.Models.Produto
+
+@{
+    ViewData["Title"] = "Excluir Produto";
+}
+
+<div class="row justify-content-center">
+    <div class="col-md-8 col-lg-6">
+        <div class="card shadow-sm border-0">
+            <div class="card-header bg-danger text-white py-3">
+                <h4 class="mb-0 fw-bold">
+                    <i class="bi bi-exclamation-triangle me-2"></i>Excluir Produto
+                </h4>
+            </div>
+            <div class="card-body p-4">
+                <p class="text-danger fw-semibold">Tem certeza de que deseja excluir este produto do estoque?</p>
+                <hr />
+                <dl class="row mb-0">
+                    <dt class="col-sm-4 text-muted">@Html.DisplayNameFor(model => model.Nome)</dt>
+                    <dd class="col-sm-8 fw-semibold">@Html.DisplayFor(model => model.Nome)</dd>
+
+                    <dt class="col-sm-4 text-muted">@Html.DisplayNameFor(model => model.Preco)</dt>
+                    <dd class="col-sm-8">@Model.Preco.ToString("C")</dd>
+
+                    <dt class="col-sm-4 text-muted">@Html.DisplayNameFor(model => model.Estoque)</dt>
+                    <dd class="col-sm-8">@Html.DisplayFor(model => model.Estoque) un</dd>
+                </dl>
+            </div>
+            <div class="card-footer bg-light p-3">
+                <form asp-action="Delete" class="d-flex justify-content-between m-0">
+                    <input type="hidden" asp-for="Id" />
+                    <a asp-action="Index" class="btn btn-outline-secondary">
+                        <i class="bi bi-arrow-left me-1"></i>Cancelar
+                    </a>
+                    <button type="submit" class="btn btn-danger px-4">
+                        <i class="bi bi-trash me-1"></i>Confirmar Exclusão
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
