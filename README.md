@@ -1,8 +1,3 @@
-Perfeito! Como você colocou na pasta **`wwwroot/images`**, atualizei o código do **`README.md`** com os caminhos exatos para carregar no GitHub.
-
-Copie e cole este conteúdo direto no seu arquivo:
-
-```markdown
 <div align="center">
 
 # 🛒 Mercearia MVCLm
@@ -29,21 +24,21 @@ O **Mercearia MVCLm** é um sistema web intuitivo e moderno criado para otimizar
 ### 🏠 Home / Painel Principal
 > Tela inicial com atalhos e navegação simplificada para os módulos do sistema.
 
-![Home Page](./MerceariaMVCLm/images/Print_home.png)
+![Home Page](MerceariaMVCLm/MerceariaMVCLm/images/Print_home.png)
 
 ---
 
 ### 👥 Gestão de Clientes
 > Tabela para visualização e controle de clientes, incluindo o status (`Ativo` / `Inativo`) e dados cadastrais.
 
-![Lista de Clientes](./MerceariaMVCLm/images/Print_home.png)
+![Lista de Clientes](MerceariaMVCLm/MerceariaMVCLm/images/Print_clientes.png)
 
 ---
 
 ### 📦 Gestão de Produtos
 > Controle completo de estoque com precificação formatada em moeda local e marcadores de quantidade.
 
-![Lista de Produtos](./MerceariaMVCLm/images/Print_home.png)
+![Lista de Produtos](MerceariaMVCLm/MerceariaMVCLm/images/Print_produtos.png)
 
 ---
 
@@ -73,43 +68,5 @@ O **Mercearia MVCLm** é um sistema web intuitivo e moderno criado para otimizar
 
 1. **Clone o repositório:**
    ```bash
-   git clone [https://github.com/seu-usuario/MerceariaMVCLm.git](https://github.com/seu-usuario/MerceariaMVCLm.git)
+   git clone [https://github.com/lc-mor4es/MerceariaMVCLm.git](https://github.com/lc-mor4es/MerceariaMVCLm.git)
    cd MerceariaMVCLm
-
-```
-
-2. **Restaure as dependências do projeto:**
-```bash
-dotnet restore
-
-```
-
-
-3. **Atualize o Banco de Dados:**
-```bash
-dotnet ef database update
-
-```
-
-
-4. **Execute a aplicação:**
-```bash
-dotnet run
-
-```
-
-
-5. **Acesse no seu navegador:**
-`https://localhost:5001` ou `http://localhost:5000`
-
----
-
-## 👨‍💻 Desenvolvedor
-
-**Lucas Moraes**
-
-*Desenvolvedor do projeto*
-
-📧 Email: lucas.m.paixao@gmail.com
-
----
